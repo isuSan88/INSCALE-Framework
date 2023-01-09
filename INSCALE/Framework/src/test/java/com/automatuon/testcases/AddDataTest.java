@@ -65,7 +65,7 @@ public class AddDataTest extends BaseClass{
 	public void DeleteCustomer()
 	{
 		DeleteCustomerPage deletecustomer= PageFactory.initElements(driver, DeleteCustomerPage.class);
-		deletecustomer.deletecustomer("FirstNamea", "LastName", "Postcode");
+		deletecustomer.deletecustomer("FirstName", "LastName", "Postcode");
 		Helper.captureScreenshot(driver);
 	}
 	
